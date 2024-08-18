@@ -1,6 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Carousel.css';
+import image1 from '../assets/1722246261Saree_banner_desktop_final.avif';
+import image2 from '../assets/1722246606Bridal_Couture_banner_desktop_final.avif';
+import image3 from '../assets/1721819429kashmir_banner_desktop_final.avif';
+
 
 const HomeCarousel = () => {
   return (
@@ -8,7 +12,7 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="path_to_your_image_1.jpg"
+          src= {image1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +23,7 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="path_to_your_image_2.jpg"
+          src= {image2}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -30,7 +34,7 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="path_to_your_image_3.jpg"
+          src= {image3}
           alt="Third slide"
         />
         <Carousel.Caption>
