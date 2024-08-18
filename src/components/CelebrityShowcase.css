@@ -1,0 +1,31 @@
+/* CelebrityShowcase.css */
+.celebrity-showcase {
+    padding: 4rem 2rem;
+    background-color: #fff;
+  }
+  
+  .celebrity-showcase h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card-deck {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 1rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  

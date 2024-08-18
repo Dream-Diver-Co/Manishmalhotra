@@ -1,0 +1,23 @@
+/* Carousel.css */
+.carousel-item img {
+    height: 75vh;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    color: #ddd;
+    font-size: 1.25rem;
+  }
+  
